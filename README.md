@@ -1,12 +1,14 @@
-<<<<<<< HEAD
-# Technical-Assignment
-=======
-# React + Vite
+# I2c Incorporation Technical task.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project focuses on Front end skills in react, From submission, Form validation, Local storage, Figma to React Conversion and responsive design. 
+Component based approach.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> master
+To Run this on Your system kindly clone the project and run these commands in the terminal. 
+
+```
+npm install
+npm run dev
+
+```
+
