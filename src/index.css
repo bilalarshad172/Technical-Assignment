@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+background-color: #DCE6F7;
+font-family: 'Inter', sans-serif;
+}
+
+ .body-section {
+background-image: url('./assets/Background.png');
+background-repeat: no-repeat;
+
+} 
+
+/* src/Slider.css */
+/* src/Slider.css */
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-button:focus {
+  outline: none;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 60%;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-around;
+  transition: transform 0.5s ease-in-out;
+  max-height: 82px;
+}
+
+.slider-logo {
+  width: 100px; /* Set a fixed width for all logos */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain;
+  /* Prevent shrinking of images */
+}
+
+
+.heading-line{
+    position: relative; /* Ensure the heading can be a reference point for the pseudo-element */
+    padding-bottom: 20px;
+}
+
+.heading-line::after {
+  content: "";
+  display: block;
+  width: 100%; /* Make the image span the entire width of the heading */
+  height: 13px; /* Adjust to the height of your image */
+  background-image: url('../src/assets/underline.png'); /* Path to your PNG image */
+  background-size: cover; /* Adjust the image to cover the entire area */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  position: absolute;
+  bottom: 12px; /* Position the image at the bottom of the heading */
+  left: 0;
+}
+.heading-trusted::after {
+  content: "";
+  display: block;
+  width: 100%; /* Make the image span the entire width of the heading */
+  height: 13px; /* Adjust to the height of your image */
+  background-image: url('../src/assets/underline.png'); /* Path to your PNG image */
+  background-size: cover; /* Adjust the image to cover the entire area */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  position: absolute;
+  bottom: -12px; /* Position the image at the bottom of the heading */
+  left: 0;
+}
+
+
